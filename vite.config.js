@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Delhivery-Merchant-Nudge-/',
   plugins: [
     tailwindcss(),
     react()
